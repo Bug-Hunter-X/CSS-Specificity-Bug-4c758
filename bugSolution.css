@@ -1,0 +1,21 @@
+/* Solution: Increase specificity or use !important (use cautiously) */
+#myElement {
+  color: blue !important;
+}
+
+.myClass {
+  color: red;
+}
+
+/* OR increase specificity of the styles for #myElement*/
+#myElement.myClass {
+  color: blue;
+}
+/*Another Solution*/
+#myElement {
+  color: blue;
+}
+.myClass {
+  color: red;
+}
+/* Make sure #myElement style is loaded after .myClass style */
