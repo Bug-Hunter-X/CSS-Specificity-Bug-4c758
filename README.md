@@ -1,0 +1,1 @@
+This repository demonstrates a common CSS specificity issue and its solution. The bug.css file contains conflicting style declarations, leading to unexpected rendering. The bugSolution.css file provides a corrected version that resolves the conflict using more specific selectors or the !important declaration (used cautiously).
